@@ -1,4 +1,4 @@
-package com.myapps.materialapplication;
+package com.watchyasayin.android.materialapplication;
 
 import android.app.Fragment;
 import android.graphics.BitmapFactory;

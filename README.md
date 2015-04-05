@@ -1,2 +1,2 @@
-# template_example
-An example of a simple material application using Android Studio Material Template
+# Watch Ya Sayin (in the lines of how Joe says - How You Doing)
+....stay tuned....

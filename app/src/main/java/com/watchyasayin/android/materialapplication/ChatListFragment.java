@@ -15,13 +15,13 @@ import java.util.List;
 /**
  * Created by poliveira on 11/03/2015.
  */
-public class StatsFragment extends Fragment {
+public class ChatListFragment extends Fragment {
     public static final String TAG = "stats";
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.statsfragment, container, false);
+        return inflater.inflate(R.layout.chat_list_fragment, container, false);
     }
 
     @Override

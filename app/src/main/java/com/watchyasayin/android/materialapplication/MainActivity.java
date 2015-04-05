@@ -42,11 +42,11 @@ public class MainActivity extends ActionBarActivity
             case 0: //search//todo
                 break;
             case 1: //stats
-                fragment = getFragmentManager().findFragmentByTag(StatsFragment.TAG);
+                fragment = getFragmentManager().findFragmentByTag(ChatListFragment.TAG);
                 if (fragment == null) {
-                    fragment = new StatsFragment();
+                    fragment = new ChatListFragment();
                 }
-                getFragmentManager().beginTransaction().replace(R.id.container, fragment, StatsFragment.TAG).commit();
+                getFragmentManager().beginTransaction().replace(R.id.container, fragment, ChatListFragment.TAG).commit();
                 break;
             case 2: //my account //todo
                 break;
